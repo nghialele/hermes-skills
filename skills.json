@@ -1,0 +1,77 @@
+{
+  "repo": "https://github.com/nghialele/hermes-skills",
+  "count": 5,
+  "skills": [
+    {
+      "name": "ahasend",
+      "path": "skills/ahasend",
+      "version": "1.0.0",
+      "author": "Nghia, Hermes Agent",
+      "license": "WTFPL",
+      "description": "Manage AhaSend email: send, domains, webhooks, campaigns.",
+      "files": [
+        "SKILL.md",
+        "references/api-v2.md",
+        "references/cli-reference.md",
+        "references/secrets.md"
+      ]
+    },
+    {
+      "name": "api-integration-design",
+      "path": "skills/api-integration-design",
+      "version": "1.0.0",
+      "author": "lelebot",
+      "license": "WTFPL",
+      "description": "Use when designing a product on a third-party SaaS API.",
+      "files": [
+        "SKILL.md",
+        "references/capability-registry.md",
+        "references/credential-custody.md"
+      ]
+    },
+    {
+      "name": "bgp-anycast-dns",
+      "path": "skills/bgp-anycast-dns",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "WTFPL",
+      "description": "Use when announcing IPv6 prefixes or anycasting DNS.",
+      "files": [
+        "SKILL.md",
+        "references/announcement-chain.md",
+        "scripts/verify-prefix.sh",
+        "templates/bird2-anycast.conf"
+      ]
+    },
+    {
+      "name": "content-repurposer",
+      "path": "skills/content-repurposer",
+      "version": "1.0.0",
+      "author": "Nghia",
+      "license": "WTFPL",
+      "description": "Repurpose long-form content (blog posts, articles, YouTube transcripts) into multiple formats automatically — Twitter/X threads, LinkedIn posts, email newsletters, Instagram captions, and short-form summaries. Use when converting blog posts to social media, creating multi-platform content from a single source, generating tweet threads from articles, writing newsletters from blog content, or building a content distribution pipeline.",
+      "files": [
+        "SKILL.md",
+        "references/platform-guides.md",
+        "scripts/config.json",
+        "scripts/repurpose.js",
+        "skill-card.md"
+      ]
+    },
+    {
+      "name": "manage-hetrixtools",
+      "path": "skills/manage-hetrixtools",
+      "version": "1.0.0",
+      "author": "Nghia, Hermes Agent",
+      "license": "WTFPL",
+      "description": "Investigate uptime, blacklist, maintenance, and fleet.",
+      "files": [
+        "SKILL.md",
+        "references/output-formats.md",
+        "references/tool-map.md",
+        "references/write-recipes.md",
+        "scripts/timeline.py"
+      ]
+    }
+  ]
+}
