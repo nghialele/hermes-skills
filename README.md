@@ -14,14 +14,14 @@ this before.
 
 ## Grab one
 
-**The whole shelf** (Hermes Agent taps the repo and can search it):
+**Subscribe to the shelf** (Hermes Agent lists it as a skill source):
 
 ```bash
 hermes skills tap add nghialele/hermes-skills
-hermes skills search bgp
+hermes skills search bgp        # once skills.sh has indexed the repo
 ```
 
-**Just one skill:**
+**Just one skill** — the three-part identifier always works, tap or not:
 
 ```bash
 hermes skills install nghialele/hermes-skills/bgp-anycast-dns
