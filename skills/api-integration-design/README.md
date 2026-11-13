@@ -27,8 +27,8 @@ cp -r skills/api-integration-design ~/.hermes/skills/api-integration-design
 | File | Size | Role |
 | --- | --- | --- |
 | [`SKILL.md`](SKILL.md) | 7.1 KB | the skill itself — the agent reads this |
-| [`references/capability-registry.md`](references/capability-registry.md) | 2.9 KB | reference notes the agent loads when it needs the detail |
-| [`references/credential-custody.md`](references/credential-custody.md) | 2.4 KB | reference notes the agent loads when it needs the detail |
+| [`references/capability-registry.md`](references/capability-registry.md) | 2.8 KB | reference notes the agent loads when it needs the detail |
+| [`references/credential-custody.md`](references/credential-custody.md) | 2.3 KB | reference notes the agent loads when it needs the detail |
 
 ## Part of
 

@@ -28,7 +28,7 @@ cp -r skills/ahasend ~/.hermes/skills/ahasend
 | --- | --- | --- |
 | [`SKILL.md`](SKILL.md) | 12.1 KB | the skill itself — the agent reads this |
 | [`references/api-v2.md`](references/api-v2.md) | 10.9 KB | reference notes the agent loads when it needs the detail |
-| [`references/cli-reference.md`](references/cli-reference.md) | 57.1 KB | reference notes the agent loads when it needs the detail |
+| [`references/cli-reference.md`](references/cli-reference.md) | 55.7 KB | reference notes the agent loads when it needs the detail |
 | [`references/secrets.md`](references/secrets.md) | 5.3 KB | reference notes the agent loads when it needs the detail |
 
 ## Part of

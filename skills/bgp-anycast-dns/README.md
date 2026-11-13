@@ -28,8 +28,8 @@ cp -r skills/bgp-anycast-dns ~/.hermes/skills/bgp-anycast-dns
 | --- | --- | --- |
 | [`SKILL.md`](SKILL.md) | 12.7 KB | the skill itself — the agent reads this |
 | [`references/announcement-chain.md`](references/announcement-chain.md) | 5.6 KB | reference notes the agent loads when it needs the detail |
-| [`scripts/verify-prefix.sh`](scripts/verify-prefix.sh) | 2.7 KB | helper scripts the skill runs |
-| [`templates/bird2-anycast.conf`](templates/bird2-anycast.conf) | 3.1 KB | templates it fills in |
+| [`scripts/verify-prefix.sh`](scripts/verify-prefix.sh) | 2.6 KB | helper scripts the skill runs |
+| [`templates/bird2-anycast.conf`](templates/bird2-anycast.conf) | 3.0 KB | templates it fills in |
 
 ## Part of
 

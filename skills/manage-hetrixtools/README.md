@@ -27,10 +27,10 @@ cp -r skills/manage-hetrixtools ~/.hermes/skills/manage-hetrixtools
 | File | Size | Role |
 | --- | --- | --- |
 | [`SKILL.md`](SKILL.md) | 5.4 KB | the skill itself — the agent reads this |
-| [`references/output-formats.md`](references/output-formats.md) | 1.1 KB | reference notes the agent loads when it needs the detail |
+| [`references/output-formats.md`](references/output-formats.md) | 1.0 KB | reference notes the agent loads when it needs the detail |
 | [`references/tool-map.md`](references/tool-map.md) | 1.6 KB | reference notes the agent loads when it needs the detail |
 | [`references/write-recipes.md`](references/write-recipes.md) | 1.5 KB | reference notes the agent loads when it needs the detail |
-| [`scripts/timeline.py`](scripts/timeline.py) | 1.0 KB | helper scripts the skill runs |
+| [`scripts/timeline.py`](scripts/timeline.py) | 1017 B | helper scripts the skill runs |
 
 ## Part of
 

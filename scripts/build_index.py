@@ -107,6 +107,16 @@ def role_of(rel: str) -> str:
     return ROLE_BY_DIR.get(head, "supporting file")
 
 
+def file_size(path: Path) -> int:
+    """Size as git will store it: CRLF normalised to LF.
+
+    Windows checkouts of these files are CRLF while the repo (and CI) is LF, so
+    measuring the working tree directly makes the generated READMEs differ by a
+    byte count per line — and CI rightly calls that stale.
+    """
+    return len(path.read_bytes().replace(b"\r\n", b"\n"))
+
+
 def collect() -> list[dict]:
     skills = []
     for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
@@ -121,7 +131,7 @@ def collect() -> list[dict]:
         entries = [
             {
                 "path": f,
-                "size": human_size((skill_md.parent / f).stat().st_size),
+                "size": human_size(file_size(skill_md.parent / f)),
                 "role": role_of(f),
             }
             for f in files
