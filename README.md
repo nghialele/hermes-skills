@@ -41,16 +41,21 @@ agents ignore without complaining.
 
 ## The shelf
 
+Click any name — every folder has its own README with the install line, the file
+map, and the one-line version of what the agent will do with it. Those pages are
+generated from `SKILL.md`, not hand-written, so they can't quietly disagree with
+the skill they describe.
+
 <!-- SKILLS:START -->
 | Skill | What it does | v |
 | --- | --- | --- |
-| [`ahasend`](https://github.com/nghialele/hermes-skills/tree/main/skills/ahasend) | Manage AhaSend email: send, domains, webhooks, campaigns. | 1.0.0 |
-| [`api-integration-design`](https://github.com/nghialele/hermes-skills/tree/main/skills/api-integration-design) | Use when designing a product on a third-party SaaS API. | 1.0.0 |
-| [`bgp-anycast-dns`](https://github.com/nghialele/hermes-skills/tree/main/skills/bgp-anycast-dns) | Use when announcing IPv6 prefixes or anycasting DNS. | 1.0.0 |
-| [`content-repurposer`](https://github.com/nghialele/hermes-skills/tree/main/skills/content-repurposer) | Repurpose long-form content (blog posts, articles, YouTube transcripts) into multiple formats automatically … | 1.0.0 |
-| [`manage-hetrixtools`](https://github.com/nghialele/hermes-skills/tree/main/skills/manage-hetrixtools) | Investigate uptime, blacklist, maintenance, and fleet. | 1.0.0 |
+| [`ahasend`](skills/ahasend/) | Manage AhaSend email: send, domains, webhooks, campaigns. | 1.0.0 |
+| [`api-integration-design`](skills/api-integration-design/) | Use when designing a product on a third-party SaaS API. | 1.0.0 |
+| [`bgp-anycast-dns`](skills/bgp-anycast-dns/) | Use when announcing IPv6 prefixes or anycasting DNS. | 1.0.0 |
+| [`content-repurposer`](skills/content-repurposer/) | Repurpose long-form content (blog posts, articles, YouTube transcripts) into multiple formats automatically … | 1.0.0 |
+| [`manage-hetrixtools`](skills/manage-hetrixtools/) | Investigate uptime, blacklist, maintenance, and fleet. | 1.0.0 |
 
-*5 skills, indexed by `scripts/build_index.py`. CI fails if this table drifts from `skills/`.*
+*5 skills, indexed by `scripts/build_index.py`. Every skill folder has its own README; CI fails if any of them drifts from `skills/`.*
 <!-- SKILLS:END -->
 
 ## Living elsewhere
