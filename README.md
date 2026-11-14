@@ -54,8 +54,9 @@ the skill they describe.
 | [`bgp-anycast-dns`](skills/bgp-anycast-dns/) | Use when announcing IPv6 prefixes or anycasting DNS. | 1.0.0 |
 | [`content-repurposer`](skills/content-repurposer/) | Repurpose long-form content (blog posts, articles, YouTube transcripts) into multiple formats automatically … | 1.0.0 |
 | [`manage-hetrixtools`](skills/manage-hetrixtools/) | Investigate uptime, blacklist, maintenance, and fleet. | 1.0.0 |
+| [`manage-ripe-database`](skills/manage-ripe-database/) | Use when reading or changing RIPE Database objects: whois, RPSL, REST API, route6, mntner, reverse DNS, RPKI ROAs. | 1.0.0 |
 
-*5 skills, indexed by `scripts/build_index.py`. Every skill folder has its own README; CI fails if any of them drifts from `skills/`.*
+*6 skills, indexed by `scripts/build_index.py`. Every skill folder has its own README; CI fails if any of them drifts from `skills/`.*
 <!-- SKILLS:END -->
 
 ## Living elsewhere

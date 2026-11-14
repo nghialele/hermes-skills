@@ -1,6 +1,6 @@
 {
   "repo": "https://github.com/nghialele/hermes-skills",
-  "count": 5,
+  "count": 6,
   "skills": [
     {
       "name": "ahasend",
@@ -71,6 +71,22 @@
         "references/tool-map.md",
         "references/write-recipes.md",
         "scripts/timeline.py"
+      ]
+    },
+    {
+      "name": "manage-ripe-database",
+      "path": "skills/manage-ripe-database",
+      "version": "1.0.0",
+      "author": "Hermes Agent",
+      "license": "WTFPL",
+      "description": "Use when reading or changing RIPE Database objects: whois, RPSL, REST API, route6, mntner, reverse DNS, RPKI ROAs.",
+      "files": [
+        "SKILL.md",
+        "references/objects.md",
+        "references/rest-api.md",
+        "references/troubleshooting.md",
+        "scripts/ripe.py",
+        "scripts/rpsl.py"
       ]
     }
   ]
